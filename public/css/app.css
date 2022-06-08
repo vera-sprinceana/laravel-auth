@@ -10962,3 +10962,11 @@ a.text-dark:focus {
   }
 }
 
+.bg-edit {
+  background-color: rgb(246, 246, 208);
+}
+
+.bg-create {
+  background-color: rgb(215, 244, 227);
+}
+

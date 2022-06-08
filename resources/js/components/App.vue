@@ -5,7 +5,7 @@
                 <div class="card">
                     <Header/>
                     <div class="card-body">
-                        Sito in costruzione
+                       <h5 class="text-danger">Sito in costruzione</h5> 
                     </div>
                 </div>
             </div>
@@ -15,6 +15,7 @@
 
 <script>
 import Header from './Header.vue';
+
 export default{
     name: 'App',
    components:{
@@ -22,3 +23,10 @@ export default{
    }
 }
 </script>
+
+<style scoped>
+.text-danger{
+    color: red;
+}
+
+</style>
